@@ -1,0 +1,16 @@
+2019-06-23 13:26:38.725 {main} DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop (owner_id,area_id,shop_Category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,create_time,last_edit_time,enable_stauts,advice) values (1,1,1, 大盘鸡,heoo,新疆,12354,图片,2,Sun Jun 23 13:26:31 CST 2019, ,2,很满意) 
+2019-06-23 13:26:39.275 {main} DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 
+2019-06-23 13:30:50.870 {main} DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop (owner_id,area_id,shop_Category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,create_time,last_edit_time,enable_stauts,advice) values (1,1,1, 大盘鸡,heoo,新疆,12354,图片,2,Sun Jun 23 13:30:45 CST 2019, ,2,很满意) 
+2019-06-23 13:30:51.344 {main} DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 
+2019-06-23 14:00:20.360 {main} DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop (owner_id,area_id,shop_Category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,create_time,last_edit_time,enable_stauts,advice) values (1,1,2, 大盘鸡,heoo,新疆,12354,图片,2,, ,2,很满意) 
+2019-06-23 14:00:20.818 {main} DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 
+2019-06-23 14:09:58.151 {main} DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop (owner_id,area_id,shop_Category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,create_time,last_edit_time,enable_stauts,advice) values (1,1,2, 大盘鸡,heoo,新疆,12354,图片,2,, ,2,很满意) 
+2019-06-23 14:09:58.499 {main} DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 
+2019-06-23 14:23:06.335 {main} DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop (owner_id,area_id,shop_Category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,create_time,last_edit_time,enable_stauts,advice) values (?,?,?, ?,?,?,?,?,?,?, ?,?,?) 
+2019-06-23 14:23:07.229 {main} DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 1(Integer), 2(Long), 大盘鸡(String), heoo(String), 新疆(String), 12354(String), 图片(String), 2(Integer), null, null, 2(Integer), 很满意(String)
+2019-06-23 14:38:12.525 {main} DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: insert into tb_shop (owner_id,area_id,shop_Category_id,shop_name,shop_desc, shop_addr,phone,shop_img,priority,create_time,last_edit_time,enable_stauts,advice) values (?,?,?, ?,?,?,?,?,?,?, ?,?,?) 
+2019-06-23 14:38:12.916 {main} DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 1(Integer), 1(Long), 大盘鸡(String), heoo(String), 新疆(String), 12354(String), 图片(String), 2(Integer), null, null, 2(Integer), 很满意(String)
+2019-06-23 14:38:14.565 {main} DEBUG com.imooc.o2o.dao.ShopDao.insertShop - <==    Updates: 1
+2019-06-23 22:52:03.518 {main} DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=?, last_edit_time=? where shop_id=? 
+2019-06-23 22:52:03.843 {main} DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==> Parameters: 一般(String), 河南(String), 2019-06-23 22:51:58.907(Timestamp), 8(Long)
+2019-06-23 22:52:05.212 {main} DEBUG com.imooc.o2o.dao.ShopDao.updateShop - <==    Updates: 1
